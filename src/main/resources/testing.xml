@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <context:annotation-config/>-->
+    <context:component-scan base-package="ru.dmdev.spring_xml.xml_and_annotation_config"/>
+    <context:property-placeholder location="application.properties"/>
+
+<!--    <bean id="dao1" class="ru.dmdev.spring_xml.xml_and_annotation_config.repository.DaoTesting"/>-->
+<!--    <bean id="dao2" class="ru.dmdev.spring_xml.xml_and_annotation_config.repository.DaoTesting"/>-->
+<!--    <bean id="service" class="ru.dmdev.spring_xml.xml_and_annotation_config.service.ServiceTesting"/>-->
+
+<!--    <bean class="ru.dmdev.spring_xml.xml_and_annotation_config.post_process.TranzakityanalBeanPostProcessor"/>-->
+<!--    <bean class="ru.dmdev.spring_xml.xml_and_annotation_config.post_process.AuditianalBeanPostProcessor"/>-->
+
+</beans>
